@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0 30px 0;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    min-width: 100%;
+}
+.home{
+    text-align: center;
+    margin: 10px;
+    min-width: 300px;  /* No puede ser más pequeño que 300px */
+    min-height: 200px; /* No puede ser más pequeño que 200px */
+    background-color: #1B244A;
+}
+.home h3{
+    color: #EEEE;
+    font-family: Verdana, sans-serif;
+    margin: 10px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+#homeScore, #guestScore {
+    color: #F94F6D;
+    text-align: center;
+    font-family: miFuente, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 10px auto;
+    background: black;
+    padding: 0 20px 0 20px;
+
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.buttons button{
+    margin: 5px;
+    border-radius: 5px;
+    border: 3px solid #9AABD8;
+    min-width: 50px;
+    min-height: 50px;
+    font-family: miFuente, serif;
+    padding: 10px;
+    font-size: 20px;
+    color: #9AABD8;
+    background: #1B244A;
+}
+.buttons button:hover{
+    background: #9AABD8;
+    color: #1B244A;
+}
+
+#reset button{
+    display: inline-block;
+    border-radius: 5px;
+    border: 4px solid #9AABD8;
+    min-width: 150px;
+    min-height: 50px;
+    font-family: miFuente, serif;
+    font-size: 25px;
+    color: #9AABD8;
+    background: #1B244A;
+}
+
+#reset button:hover{
+    background: #9AABD8;
+    color: #1B244A;
+}
+
+
+@font-face {
+    font-family: 'miFuente';
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
